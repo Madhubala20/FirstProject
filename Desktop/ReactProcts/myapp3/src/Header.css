@@ -1,0 +1,43 @@
+.gift-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: #eed4ba; 
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .shop-logo {
+    width: 30px;
+    height:30px;
+  }
+  
+  .search-bar-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar {
+    padding: 5px;
+    margin-right: 5px;
+  }
+  
+  .search-button {
+    padding: 5px;
+  }
+  
+  .user-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .favorite-icon,
+  .account-icon {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+  }

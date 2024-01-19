@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  
+  }
+  .nav{
+    height :60px;
+    background-color:skyblue;
+    display:flex;
+    justify-content: space-between;
+    padding:0px,20px;
+    color:white;
+  
+  
+  }
+  .nav h2{
+    cursor: pointer;
+  }
+  .logo{
+    display:flex;
+    align-items: center;
+    gap:25px;
+  }
+  
+  .nav i.bi{
+    font-size: 23px;
+    color: white;  
+    cursor:  pointer;
+  
+  }
+  
+  .nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap:25px;
+  }
+  .nav ul li{
+    cursor: pointer;
+  }
+  
+  .sidebar-container{
+    background-color: skyblue;
+    color:white;
+    width:210px;
+    height:calc(100vh - 60px);
+    overflow-y:scroll;
+    overflow-x: hidden;
+  }
+  
+  .sidebar-container::-webkit-scrollbar{
+    display :none;
+  }
+  
+  .nav-option{
+    display:flex;
+    align-items: center;
+    padding: 0px  0px 0px 30px;
+    gap:20px;
+    width:210px;
+  }
+  
+  .nav-option:hover, .nav-option:hover i.bi{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+   
+  
+  }
+  
+  .nav-option i.bi{
+    color:white;
+    font-size: 20px;
+  } 
+  
+  .dash,.dash1,.dash2,.dash3,.dash4,.dash5{
+    margin: 10px 5px 10px 1px;
+    padding: 7px;
+    font-size: 20px;
+  }
+  
+  /* media query */
+  
+  @media  screen and (min-width:500px) {
+    .navcollaps{
+      width:80px;
+  
+    }
+    
+  
+    .navcollaps .nav-option h3{
+      display: none;
+    }
+  
+  
+  .navcollaps .nav-option{
+    padding:28px;
+  }
+  .smallDeviceIcon{
+   display: none;
+  }
+  
+  
+  }
+  @media screen and (max-width:767px){
+  .largeDeviceIcon{
+   display: none;
+  }
+  
+  .sidebar-container{
+   display: none;
+  }
+  
+  
+  .smallNav{
+   display: none;
+  }
+  .logo h2{
+   display: none;
+  }
+  }
