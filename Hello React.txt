@@ -1,2 +1,0 @@
-I am from React
-Hello from smita
